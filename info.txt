@@ -1,0 +1,18 @@
+
+Think of VPC is a piece of newly bought land where you will build your company
+I assigned 10.0.0/16 as our IPv4 CIDR. so after calculating you will have 2^32-16 = 65536 total number of ip
+
+the number of usable IP you calculate N ( total IPs) - 2
+
+		WHY?????
+
+	 THIS 2 IP ARE RESERVED NETWORK, ONE FOR DEVICE ID AND OTHER FOR NETWORK ID.
+
+
+	MECHANISM ::    YOU HAVE 2 NODES, P1 AND P2.....
+	
+ 
+
+		P1 = BROADCAST SUBNET ( E,G 255.255.255.0)
+
+		p2 = NETWORK SUBNET ( E,G 255.255.255.254)	
