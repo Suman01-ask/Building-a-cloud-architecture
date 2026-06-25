@@ -1,0 +1,15 @@
+Think of subnets as different departments inside your company
+
+
+	subnet 1 (s1) = public subnet
+	
+	domain = shopkart.com
+
+	----> DNS ----> IP CORDINATES
+
+
+	subnet 2 (s2) = private subnet
+
+	database ----> transfer protocol ----> private ip
+
+
