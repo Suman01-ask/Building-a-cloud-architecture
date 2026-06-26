@@ -1,0 +1,58 @@
+
+
+Right now,
+Your VPC has no connection to the Internet.
+    	------------------------Imagine building a city with no roads leading out-------------------------------------
+
+
+
+This is about two subnets, we have assigned in the previous module
+
+		Think of a user who want to access your domain:
+			you must provide access to your public subnets, which we have created with 16 CIDR.
+
+				www.shopkart.com
+					|
+				       DNS
+					|
+				 IP cordinates
+					|
+			your public subnet communiction
+
+
+
+	HERE iS THE PROCESS TO FOLLOW :
+
+Search:
+
+Internet Gateway
+
+Click
+
+Create Internet Gateway
+
+Name
+
+ShopKart-IGW ( I have named as enterprise internet gateway, you can name anything as per the architectural nomenclature)
+
+Create.
+
+Select it.
+Click
+
+Actions
+
+↓
+
+Attach to VPC
+
+Choose
+
+ShopKart-VPC
+
+Attach.
+-----------------------------------------------RESULT--------------------------------------------------------------
+
+Now your VPC has a road to the Internet—but nothing is using it yet.
+
+
